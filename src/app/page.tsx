@@ -280,9 +280,9 @@ export default async function Home() {
             I’m Kimberly, Living my best life as a single mom, healthy, happy,
             and at peace. I embody a remarkable strength and resilience. It
             involves juggling the demands of parenthood with personal
-            well-being, This path is about balancing your body's nutritious foods, engaging
-            in physical activity, and ensuring mental resilience through
-            mindfulness and positive affirmations.
+            well-being, This path is about balancing your body's nutritious
+            foods, engaging in physical activity, and ensuring mental resilience
+            through mindfulness and positive affirmations.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
