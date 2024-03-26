@@ -278,10 +278,9 @@ export default async function Home() {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Kimberly, Living my best life as a single mom, healthy, happy,
-            and at peace, embodies a remarkable strength and resilience. It
+            and at peace. I embody a remarkable strength and resilience. It
             involves juggling the demands of parenthood with personal
-            well-being, all while nurturing your child with love and care. This
-            path is about balance—feeding your body nutritious foods, engaging
+            well-being, This path is about balancing your body's nutritious foods, engaging
             in physical activity, and ensuring mental resilience through
             mindfulness and positive affirmations.
           </p>
