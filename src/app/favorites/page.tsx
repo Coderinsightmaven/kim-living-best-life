@@ -39,7 +39,7 @@ export const metadata = {
   description: 'Software I use, gadgets I love, and other things I recommend.',
 }
 
-export default function Uses() {
+export default function Favorites() {
   return (
     <SimpleLayout
       title="Software I use, gadgets I love, and other things I recommend."

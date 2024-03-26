@@ -9,6 +9,7 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
+  TiktokIcon,
   XIcon,
 } from '@/components/SocialIcons'
 import logoAirbnb from '@/images/logos/airbnb.svg'
@@ -273,30 +274,26 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            Living my best life, healthy, happy, and at peace.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Kimberly, Living my best life as a single mom, healthy, happy,
+            and at peace, embodies a remarkable strength and resilience. It
+            involves juggling the demands of parenthood with personal
+            well-being, all while nurturing your child with love and care. This
+            path is about balance—feeding your body nutritious foods, engaging
+            in physical activity, and ensuring mental resilience through
+            mindfulness and positive affirmations.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
-              href="#"
-              aria-label="Follow on Instagram"
+              href="https://www.tiktok.com/@livingmybestlife4478"
+              icon={TiktokIcon}
+            />
+
+            <SocialLink
+              href="https://www.instagram.com/livingmybestlife4478/"
               icon={InstagramIcon}
-            />
-            <SocialLink
-              href="#"
-              aria-label="Follow on GitHub"
-              icon={GitHubIcon}
-            />
-            <SocialLink
-              href="#"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
             />
           </div>
         </div>
