@@ -105,7 +105,7 @@ function SocialLink({
   icon: React.ComponentType<{ className?: string }>
 }) {
   return (
-    <Link className="group -m-1 p-1" {...props}>
+    <Link className="group -m-1 p-1" target="_blank" {...props}>
       <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
     </Link>
   )
@@ -185,59 +185,59 @@ function Role({ role }: { role: Role }) {
   )
 }
 
-function Resume() {
-  let resume: Array<Role> = [
-    {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
-    },
-    {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
-    },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
-    },
-  ]
+// function Resume() {
+//   let resume: Array<Role> = [
+//     {
+//       company: 'Planetaria',
+//       title: 'CEO',
+//       logo: logoPlanetaria,
+//       start: '2019',
+//       end: {
+//         label: 'Present',
+//         dateTime: new Date().getFullYear().toString(),
+//       },
+//     },
+//     {
+//       company: 'Airbnb',
+//       title: 'Product Designer',
+//       logo: logoAirbnb,
+//       start: '2014',
+//       end: '2019',
+//     },
+//     {
+//       company: 'Facebook',
+//       title: 'iOS Software Engineer',
+//       logo: logoFacebook,
+//       start: '2011',
+//       end: '2014',
+//     },
+//     {
+//       company: 'Starbucks',
+//       title: 'Shift Supervisor',
+//       logo: logoStarbucks,
+//       start: '2008',
+//       end: '2011',
+//     },
+//   ]
 
-  return (
-    <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
-      </h2>
-      <ol className="mt-6 space-y-4">
-        {resume.map((role, roleIndex) => (
-          <Role key={roleIndex} role={role} />
-        ))}
-      </ol>
-      <Button href="#" variant="secondary" className="group mt-6 w-full">
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
-    </div>
-  )
-}
+//   return (
+//     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+//       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
+//         <BriefcaseIcon className="h-6 w-6 flex-none" />
+//         <span className="ml-3">Work</span>
+//       </h2>
+//       <ol className="mt-6 space-y-4">
+//         {resume.map((role, roleIndex) => (
+//           <Role key={roleIndex} role={role} />
+//         ))}
+//       </ol>
+//       <Button href="#" variant="secondary" className="group mt-6 w-full">
+//         Download CV
+//         <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
+//       </Button>
+//     </div>
+//   )
+// }
 
 function Photos() {
   let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
@@ -300,15 +300,15 @@ export default async function Home() {
       </Container>
       <Photos />
       <Container className="mt-24 md:mt-28">
-        <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
-          <div className="flex flex-col gap-16">
+        <div className="mx-auto grid max-w-xl grid-cols-1 items-center justify-center gap-y-20 lg:max-w-none  lg:grid-cols-2">
+          <div className="flex flex-col items-center">
             {articles.map((article) => (
               <Article key={article.slug} article={article} />
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
-            <Resume />
+            {/* <Newsletter /> */}
+            {/* <Resume /> */}
           </div>
         </div>
       </Container>

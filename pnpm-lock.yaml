@@ -68,11 +68,17 @@ dependencies:
   tailwindcss:
     specifier: ^3.4.1
     version: 3.4.1
+  tailwindui-template:
+    specifier: 'link:'
+    version: 'link:'
   typescript:
     specifier: ^5.3.3
     version: 5.4.3
 
 devDependencies:
+  '@types/mdx':
+    specifier: ^2.0.12
+    version: 2.0.12
   eslint:
     specifier: ^8.56.0
     version: 8.57.0
@@ -716,7 +722,6 @@ packages:
 
   /@types/mdx@2.0.12:
     resolution: {integrity: sha512-H9VZ9YqE+H28FQVchC83RCs5xQ2J7mAAv6qdDEaWmXEVl3OpdH+xfrSUzQ1lp7U7oSTRZ0RvW08ASPJsYBi7Cw==}
-    dev: false
 
   /@types/ms@0.7.34:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
