@@ -35,18 +35,18 @@ function Tool({
 }
 
 export const metadata = {
-  title: 'Uses',
-  description: 'Software I use, gadgets I love, and other things I recommend.',
+  title: 'My Favorites',
+  description: 'Things I eat, apps I use, and other things I recommend!',
 }
 
 export default function Favorites() {
   return (
     <SimpleLayout
-      title="Software I use, gadgets I love, and other things I recommend."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      title="Things I eat, apps I use, and other things I recommend!"
+      intro="I get asked a lot about the things I use to stay motivated, stay productive, and stay energized. Here’s a list of what I eat, the apps I use, and what GLP1 Supplements I use daily that help me get through my day!"
     >
       <div className="space-y-20">
-        <ToolsSection title="Workstation">
+        <ToolsSection title="Supplements">
           <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
             I was using an Intel-based 16” MacBook Pro prior to this and the
             difference is night and day. I’ve never heard the fans turn on a
@@ -73,7 +73,7 @@ export default function Favorites() {
             all day, I might as well do it in an expensive chair.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Development tools">
+        <ToolsSection title="Apps">
           <Tool title="Sublime Text 4">
             I don’t care if it’s missing all of the fancy IDE features everyone
             else relies on, Sublime Text is still the best text editor ever
@@ -89,32 +89,18 @@ export default function Favorites() {
             over the years.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Design">
+        <ToolsSection title="Foods">
           <Tool title="Figma">
             We started using Figma as just a design tool but now it’s become our
             virtual whiteboard for the entire company. Never would have expected
             the collaboration features to be the real hook.
           </Tool>
         </ToolsSection>
-        <ToolsSection title="Productivity">
-          <Tool title="Alfred">
-            It’s not the newest kid on the block but it’s still the fastest. The
-            Sublime Text of the application launcher world.
-          </Tool>
-          <Tool title="Reflect">
-            Using a daily notes system instead of trying to keep things
-            organized by topics has been super powerful for me. And with
-            Reflect, it’s still easy for me to keep all of that stuff
-            discoverable by topic even though all of my writing happens in the
-            daily note.
-          </Tool>
-          <Tool title="SavvyCal">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
-          </Tool>
-          <Tool title="Focus">
-            Simple tool for blocking distracting websites when I need to just do
-            the work and get some momentum going.
+        <ToolsSection title="Life Quotes">
+          <Tool title="Figma">
+            We started using Figma as just a design tool but now it’s become our
+            virtual whiteboard for the entire company. Never would have expected
+            the collaboration features to be the real hook.
           </Tool>
         </ToolsSection>
       </div>
