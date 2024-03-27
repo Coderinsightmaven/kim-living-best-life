@@ -55,7 +55,7 @@ export default function Favorites() {
               src="https://images.albertsons-media.com/is/image/ABS/970049716-ECOM?$ng-ecom-pdp-desktop$&defaultImage=Not_Available"
             />
             Not only is it delicious but it is high in protein and low in sugar.
-            It's a great snack to have in between meals or as a dessert.
+            It is a great snack to have in between meals or as a dessert.
           </Tool>
           <Tool title="FairLife Lactose Free Fat Free Ultra Filtered Milk">
             <Image
