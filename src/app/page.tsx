@@ -6,6 +6,7 @@ import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
+  DanonIcon,
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
@@ -23,6 +24,7 @@ import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
+import Danon from '@/images/logos/Danon_Foundation_Logo.svg'
 
 function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -289,7 +291,6 @@ export default async function Home() {
               href="https://www.tiktok.com/@livingmybestlife4478"
               icon={TiktokIcon}
             />
-
             <SocialLink
               href="https://www.instagram.com/livingmybestlife4478/"
               icon={InstagramIcon}

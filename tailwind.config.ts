@@ -26,3 +26,4 @@ export default {
     typography: typographyStyles,
   },
 } satisfies Config
+
