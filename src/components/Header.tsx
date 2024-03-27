@@ -134,9 +134,7 @@ function MobileNavigation(
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
                 <MobileNavItem href="/about">My Story</MobileNavItem>
                 <MobileNavItem href="/favorites">Favorites</MobileNavItem>
-                <MobileNavItem href="/articles">Articles</MobileNavItem>
-                <MobileNavItem href="/projects">Projects</MobileNavItem>
-                <MobileNavItem href="/speaking">Speaking</MobileNavItem>
+                <MobileNavItem href="/articles">My Journey</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -160,7 +158,7 @@ function NavItem({
       <Link
         href={href}
         className={clsx(
-          'relative block px-3 p-2 transition',
+          'relative block p-2 px-3 transition',
           isActive
             ? 'text-teal-500 dark:text-teal-400'
             : 'hover:text-teal-500 dark:hover:text-teal-400',
@@ -177,14 +175,11 @@ function NavItem({
 
 function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
   return (
-<nav {...props}>
-        <ul className="flex justify-between items-center w-full rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
-        <NavItem href="/about">About</NavItem>
+    <nav {...props}>
+      <ul className="flex w-full items-center justify-between rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+        <NavItem href="/about">My Story</NavItem>
         <NavItem href="/favorites">Favorites</NavItem>
-        <NavItem href="/articles">Experiences</NavItem>
-        {/* <NavItem href="/projects"></NavItem>
-        <NavItem href="/speaking"></NavItem> */}
-        
+        <NavItem href="/articles">My Journey</NavItem>
       </ul>
     </nav>
   )

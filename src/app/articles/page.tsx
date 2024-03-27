@@ -35,9 +35,9 @@ function Article({ article }: { article: ArticleWithSlug }) {
 }
 
 export const metadata: Metadata = {
-  title: 'Articles',
+  title: 'My Journey',
   description:
-    'All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order.',
+    'Being a Mom with Heart Disease and loosing weight read about my journey and how I am living my best life, healthy, happy, and at peace.',
 }
 
 export default async function ArticlesIndex() {
@@ -45,8 +45,8 @@ export default async function ArticlesIndex() {
 
   return (
     <SimpleLayout
-      title="Writing on software design, company building, and the aerospace industry."
-      intro="All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order."
+      title="This is me and this is my journey of where I started and where I am now and where I look to be in the future!"
+      intro="Being a Mom with Heart Disease and loosing weight read about my journey and how I am living my best life, healthy, happy, and at peace."
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
         <div className="flex max-w-3xl flex-col space-y-16">

@@ -229,6 +229,125 @@ export default function Favorites() {
               style={{ width: '100%', height: 'auto' }}
             />
           </Tool>
+          <Tool title="StarKist Wild Caught Light Tuna">
+            <Image
+              className="pb-2"
+              alt="StarKist Wild Caught Light Tuna"
+              src="https://m.media-amazon.com/images/I/81I-laID7aL._SL1500_.jpg"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
+          <Tool title="Chomps Mini Grass Fed Beef Jerky Meat Snack Sticks 0.5 Oz, Original Beef">
+            <Image
+              className="pb-2"
+              alt="Chomps Mini Grass Fed Beef Jerky Meat Snack Sticks 0.5 Oz, Original Beef"
+              src="https://m.media-amazon.com/images/I/71Y8jMnY+mL._SL1500_.jpg"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
+          <Tool title="Trader Joe's Nuts, Roasted Salted, Cashew Pieces - Low Sodium">
+            <Image
+              className="pb-2"
+              alt="Trader Joe's Nuts, Roasted Salted, Cashew Pieces - Low Sodium"
+              src="https://i.ebayimg.com/images/g/ga4AAOSwmV5kAORZ/s-l1600.jpg"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
+          <Tool title="Spring Tree Pure Maple Syrup Bottle, 8.5 Fl Oz">
+            <Image
+              className="pb-2"
+              alt="Spring Tree Pure Maple Syrup Bottle, 8.5 Fl Oz"
+              src="https://m.media-amazon.com/images/I/61i+wlgmz6L._SL1500_.jpg"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
+          <Tool title="Kodiak Cakes - Protein-Packed Muffin Mix Chocolate Chip & Blueberry">
+            <Image
+              className="pb-2"
+              alt="Kodiak Cakes - Protein-Packed Muffin Mix Chocolate Chip & Blueberry."
+              src="https://m.media-amazon.com/images/I/615VxR8H4TL._SL1000_.jpg"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+            <Image
+              className="pb-2"
+              alt="Kodiak Cakes - Protein-Packed Muffin Mix Chocolate Chip & Blueberry."
+              src="https://m.media-amazon.com/images/I/81aVzshlGSL._SL1500_.jpg"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
+          <Tool title="Jack Link's Original Beef Jerky">
+            <Image
+              className="pb-2"
+              alt="Jack Link's Original Beef Jerky"
+              src="https://scene7.samsclub.com/is/image/samsclub/0001708287772_A?$DT_PDP_BB$"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
+          <Tool title="Lily's Milk Chocolate Style No Sugar Added, Sweets Bars">
+            <Image
+              className="pb-2"
+              alt="Lily's Milk Chocolate Style No Sugar Added, Sweets Bars"
+              src="https://m.media-amazon.com/images/I/71fGd2qMBML._SL1500_.jpg"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
+          <Tool title="Kodiak Instant Oatmeal Packets, Maple Brown Sugar">
+            <Image
+              className="pb-2"
+              alt="Kodiak Instant Oatmeal Packets, Maple Brown Sugar"
+              src="https://m.media-amazon.com/images/I/810fU50oJPL._SL1500_.jpg"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
+          <Tool title="Trader Joe's Just Chicken">
+            <Image
+              className="pb-2"
+              alt="Trader Joe's Just Chicken"
+              src="https://www.eatthis.com/wp-content/uploads/sites/4/2023/11/Trader-Joes-Just-Chicken.jpg?quality=82&strip=all&w=640"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
+          <Tool title="Just Bare Lightly Breaded Chicken Breast">
+            <Image
+              className="pb-2"
+              alt="Just Bare Lightly Breaded Chicken Breast"
+              src="https://target.scene7.com/is/image/Target/GUEST_92d86ef8-2941-465d-929f-a87044545488?wid=488&hei=488&fmt=pjpeg"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </Tool>
         </ToolsSection>
 
         {/* foods above this line */}
