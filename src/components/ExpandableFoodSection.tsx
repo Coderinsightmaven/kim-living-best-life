@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Section } from '@/components/Section';
 import { Card } from '@/components/Card';
-import { MyFoods, Mysupplements } from '@/components/myfoods';
+import { MyFoods } from '@/components/myfoods';
 
 const Tool = ({
   children,

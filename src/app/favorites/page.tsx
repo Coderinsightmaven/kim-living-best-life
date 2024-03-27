@@ -1,14 +1,12 @@
-import { Card } from '@/components/Card'
-import { Section } from '@/components/Section'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import Image from 'next/image'
-import ExpandableFoodSection from '@/components/ExpandableToolsSection';
-
+import ExpandableFoodSection from '@/components/ExpandableFoodSection'
+import ExpandableSupplementsSection from '@/components/ExpandableSupplementsSection'
 
 export const metadata = {
   title: 'My Favorites',
   description: 'Things I eat, apps I use, and other things I recommend!',
-};
+}
 
 export default function Favorites() {
   return (
@@ -18,9 +16,10 @@ export default function Favorites() {
     >
       <div>
         <ExpandableFoodSection title="Foods" />
-        {/* You can add more sections here as needed */}
+      </div>
+      <div className="pt-25">
+        <ExpandableSupplementsSection title="Supplements" />
       </div>
     </SimpleLayout>
-  );
+  )
 }
-

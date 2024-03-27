@@ -230,7 +230,7 @@ const supplements = [
 
 export function Mysupplements() {
   return (
-    <div className="bg-white">
+    <div className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
           <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
@@ -243,7 +243,7 @@ export function Mysupplements() {
                 {({ open }) => (
                   <>
                     <dt>
-                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
+                      <Disclosure.Button className="flex w-full items-start justify-between text-left">
                         <span className="text-base font-semibold leading-7">
                           {supplement.SupplementName}
                         </span>
