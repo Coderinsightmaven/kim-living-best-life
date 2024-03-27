@@ -7,7 +7,6 @@ import { Container } from '@/components/Container'
 import {
   InstagramIcon,
   TiktokIcon,
-  DanonIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.png'
 
