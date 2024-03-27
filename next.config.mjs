@@ -4,8 +4,17 @@ import remarkGfm from 'remark-gfm'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
 }
+
 
 const withMDX = nextMDX({
   extension: /\.mdx?$/,
