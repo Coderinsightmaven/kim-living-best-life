@@ -7,12 +7,12 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Kimberly Marincik',
+    template: '%s - Kim',
     default:
-      'Kimberly Marincik - Living my best life, healthy, happy, and at peace.',
+      'Kim, Living my best life, healthy, happy, and at peace.',
   },
   description:
-    'I’m Kimberly Marincik. Living my best life, healthy, happy, and at peace.  ',
+    'I’m Kim, Living my best life, healthy, happy, and at peace.  ',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
